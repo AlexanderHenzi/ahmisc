@@ -1,0 +1,31 @@
+---
+title: "Notebook"
+author: "Alexander Henzi"
+date: "`r Sys.time()`"
+output: 
+  html_notebook:
+   toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup}
+# rinfo
+sessionInfo()
+
+# knitr
+knitr::opts_chunk$set(
+ echo = TRUE
+)
+
+# packages
+# library(tidyverse)
+
+# functions
+# source("functions.R")
+
+# data
+# load(".rda")
+```
+
+# Section

@@ -1,0 +1,40 @@
+---
+title: "Beratung"
+author: "Alexander Henzi"
+date: "`r Sys.Date()`"
+editor_options:
+  chunk_output_type: console
+output:
+  bookdown::pdf_document2:
+    toc: yes
+    toc_depth: 2
+urlcolor: blue
+lang: de-DE
+# bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+# rinfo
+sessionInfo()
+
+# knitr
+knitr::opts_chunk$set(
+ echo = TRUE,
+ fig.align = "center",
+ out.width = "\\textwidth"
+)
+
+# packages
+# library(tidyverse)
+
+# functions
+# source("functions.R")
+
+# data
+# load(".rda")
+```
+
+\newpage
+
+# Kapitel
+

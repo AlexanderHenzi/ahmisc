@@ -1,0 +1,4 @@
+name: notebook
+description: >
+   Notebook with code
+create_dir: FALSE
